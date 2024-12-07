@@ -5,13 +5,15 @@
     "lib": ["ESNext"],
     "strict": false,
     "sourceMap": true,
-    "target": "ES2016", // Puedes cambiar a la versión que prefieras
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "target": "ESNext", // Puedes cambiar a la versión que prefieras
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
     "declaration": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": [
     "src/**/*.ts"
