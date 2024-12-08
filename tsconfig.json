@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["jest"],
     "outDir": "./dist",
     "rootDir": "./src",
     "lib": ["ESNext"],
@@ -13,9 +14,10 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "noImplicitAny": true,
   },
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts", "tests/**/*"
   ]
 }

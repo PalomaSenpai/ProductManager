@@ -49,7 +49,7 @@ router.patch('/:id',
     handlerInputErrors,
     updateAvailability)
 
-router.delete('/',
+router.delete('/:id',
     param('id').isInt().withMessage('ID no valido'),
     handlerInputErrors,
     deleteProduct
