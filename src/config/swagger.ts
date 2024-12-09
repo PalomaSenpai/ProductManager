@@ -14,7 +14,7 @@ const options : swaggerJSDoc.Options= {
         info:  {
             title: 'REST API Node.js / Express /TypeScript',
             version: "1.0.0",
-            description: "API Docs for Products"
+            description: "API for Products"
         }
     },
 
