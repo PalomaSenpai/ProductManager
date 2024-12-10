@@ -1,10 +1,11 @@
 {
   "name": "proyecto-fierro",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000P\u0000r\u0000o\u0000d\u0000u\u0000c\u0000t\u0000M\u0000a\u0000n\u0000a\u0000g\u0000e\u0000r\u0000\r\u0000 \u0000",
+  "description": "REST API's con Express y TypeScript",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --exec ts-node src/index.ts",
+    "build": "tsc",
     "test": "jest --detectOpenHandles",
     "test:coverage": "npm run pretest &&  jest --detectOpenHandles --coverage",
     "pretest": "ts-node ./src/data --clear"
